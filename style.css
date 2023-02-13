@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 110%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 6rem;
+  margin: 0 auto;
+}
+
+button {
+  padding: 1em 2em;
+  border-radius: 0.4em;
+  font-weight: 600;
+  transition: 200ms;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/banner/banner1.png);
+  background-size: cover;
+}
+
+header .row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.banner {
+  width: 40%;
+}
+
+.banner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  gap: 1.5em;
+}
+
+.contact-btn {
+  background-color: #f15b22;
+  cursor: pointer;
+  padding: 1rem 1.8rem;
+  border: 0;
+  font-size: 0.9rem;
+}
+
+.contact-btn a {
+  color: #fff;
+}
+
+.contact-btn:hover {
+  background-color: #eb6631;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.about > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.details-container {
+  flex: 1;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2em;
+}
+
+.details-container > h2 {
+  width: 60%;
+}
+
+.details-container > div {
+  margin-left: 1em;
+}
+
+.details-container > p {
+  line-height: 1.2;
+  width: 80%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+ul li i{
+  color: green;
+}
+
+.call-to-action .row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.cta-banner {
+  width: 90%;
+  max-width: 1200px;
+  background-image: url(./images/watch.png);
+  background-size: cover;
+  border-radius: 0.5em;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 4rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cta-banner h2 {
+  color: #fff;
+  line-height: 1;
+}
+
+.cta-btn,
+.subscribe-btn {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  padding: 1rem 1.8rem;
+  font-size: 0.9rem;
+}
+
+.cta-btn a:link,
+.subscribe-btn a:link {
+  color: #f15b22;
+}
+
+footer.footer {
+  padding: 3rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: black;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer div.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+}
+
+.left-footer,
+.right-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.left-footer .social-share {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* width: 100%; */
+}
+
+.right-footer .mail {
+  width: 16rem;
+  border: 2px solid rgba(255, 248, 220, 0.819);
+  font-size: 1rem;
+  height: 3rem;
+  background-color: inherit;
+  color: cornsilk;
+  border-radius: 0.4em;
+  padding: 1.1em 1.5em;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.mail:focus {
+  outline: 0;
+  border-color: cornsilk;
+}
